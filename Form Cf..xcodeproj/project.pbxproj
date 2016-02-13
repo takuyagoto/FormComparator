@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B015D9FA1928BD19005E5BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015D9F91928BD19005E5BBE /* Foundation.framework */; };
+		B015D9FC1928BD19005E5BBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015D9FB1928BD19005E5BBE /* CoreGraphics.framework */; };
+		B015D9FE1928BD19005E5BBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015D9FD1928BD19005E5BBE /* UIKit.framework */; };
+		B015DA041928BD19005E5BBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B015DA021928BD19005E5BBE /* InfoPlist.strings */; };
+		B015DA061928BD19005E5BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA051928BD19005E5BBE /* main.m */; };
+		B015DA0A1928BD19005E5BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA091928BD19005E5BBE /* AppDelegate.m */; };
+		B015DA151928BD19005E5BBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B015DA141928BD19005E5BBE /* Images.xcassets */; };
+		B015DA1C1928BD19005E5BBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015DA1B1928BD19005E5BBE /* XCTest.framework */; };
+		B015DA1D1928BD19005E5BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015D9F91928BD19005E5BBE /* Foundation.framework */; };
+		B015DA1E1928BD19005E5BBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015D9FD1928BD19005E5BBE /* UIKit.framework */; };
+		B015DA261928BD19005E5BBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B015DA241928BD19005E5BBE /* InfoPlist.strings */; };
+		B015DA281928BD19005E5BBE /* FormComparatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA271928BD19005E5BBE /* FormComparatorTests.m */; };
+		B015DA321928BDD4005E5BBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015DA311928BDD4005E5BBE /* AVFoundation.framework */; };
+		B015DA341928BDFD005E5BBE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015DA331928BDFD005E5BBE /* MediaPlayer.framework */; };
+		B015DA361928BE0A005E5BBE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B015DA351928BE0A005E5BBE /* AssetsLibrary.framework */; };
+		B015DA391928BE95005E5BBE /* FlagClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA381928BE95005E5BBE /* FlagClass.m */; };
+		B015DA3C1928BF1C005E5BBE /* MoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA3B1928BF1C005E5BBE /* MoviesTableViewController.m */; };
+		B015DA3F1928BFED005E5BBE /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA3E1928BFED005E5BBE /* PlayerView.m */; };
+		B015DA421928C04F005E5BBE /* FlagPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA411928C04F005E5BBE /* FlagPlayerViewController.m */; };
+		B015DA481928C13F005E5BBE /* ComparePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA471928C13F005E5BBE /* ComparePlayerViewController.m */; };
+		B015DA4B1928C1B2005E5BBE /* SelectPlaySpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B015DA4A1928C1B2005E5BBE /* SelectPlaySpeedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B015DA1F1928BD19005E5BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B015D9EE1928BD19005E5BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B015D9F51928BD19005E5BBE;
+			remoteInfo = FormComparator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B015D9F61928BD19005E5BBE /* Form Cf..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Form Cf..app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B015D9F91928BD19005E5BBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B015D9FB1928BD19005E5BBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B015D9FD1928BD19005E5BBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B015DA011928BD19005E5BBE /* Form Cf.-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Form Cf.-Info.plist"; sourceTree = "<group>"; };
+		B015DA031928BD19005E5BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B015DA051928BD19005E5BBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B015DA071928BD19005E5BBE /* Form Cf.-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Form Cf.-Prefix.pch"; sourceTree = "<group>"; };
+		B015DA081928BD19005E5BBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B015DA091928BD19005E5BBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B015DA141928BD19005E5BBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B015DA1A1928BD19005E5BBE /* Form Cf.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Form Cf.Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B015DA1B1928BD19005E5BBE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B015DA231928BD19005E5BBE /* Form Cf.Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Form Cf.Tests-Info.plist"; sourceTree = "<group>"; };
+		B015DA251928BD19005E5BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B015DA271928BD19005E5BBE /* FormComparatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormComparatorTests.m; sourceTree = "<group>"; };
+		B015DA311928BDD4005E5BBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B015DA331928BDFD005E5BBE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B015DA351928BE0A005E5BBE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B015DA371928BE95005E5BBE /* FlagClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagClass.h; sourceTree = "<group>"; };
+		B015DA381928BE95005E5BBE /* FlagClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagClass.m; sourceTree = "<group>"; };
+		B015DA3A1928BF1C005E5BBE /* MoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewController.h; sourceTree = "<group>"; };
+		B015DA3B1928BF1C005E5BBE /* MoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewController.m; sourceTree = "<group>"; usesTabs = 0; };
+		B015DA3D1928BFED005E5BBE /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		B015DA3E1928BFED005E5BBE /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; usesTabs = 0; };
+		B015DA401928C04F005E5BBE /* FlagPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagPlayerViewController.h; sourceTree = "<group>"; };
+		B015DA411928C04F005E5BBE /* FlagPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagPlayerViewController.m; sourceTree = "<group>"; };
+		B015DA461928C13F005E5BBE /* ComparePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComparePlayerViewController.h; sourceTree = "<group>"; };
+		B015DA471928C13F005E5BBE /* ComparePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComparePlayerViewController.m; sourceTree = "<group>"; };
+		B015DA491928C1B2005E5BBE /* SelectPlaySpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPlaySpeedViewController.h; sourceTree = "<group>"; };
+		B015DA4A1928C1B2005E5BBE /* SelectPlaySpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPlaySpeedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B015D9F31928BD19005E5BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015DA361928BE0A005E5BBE /* AssetsLibrary.framework in Frameworks */,
+				B015DA341928BDFD005E5BBE /* MediaPlayer.framework in Frameworks */,
+				B015DA321928BDD4005E5BBE /* AVFoundation.framework in Frameworks */,
+				B015D9FC1928BD19005E5BBE /* CoreGraphics.framework in Frameworks */,
+				B015D9FE1928BD19005E5BBE /* UIKit.framework in Frameworks */,
+				B015D9FA1928BD19005E5BBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B015DA171928BD19005E5BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015DA1C1928BD19005E5BBE /* XCTest.framework in Frameworks */,
+				B015DA1E1928BD19005E5BBE /* UIKit.framework in Frameworks */,
+				B015DA1D1928BD19005E5BBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B015D9ED1928BD19005E5BBE = {
+			isa = PBXGroup;
+			children = (
+				B015D9FF1928BD19005E5BBE /* Form Cf. */,
+				B015DA211928BD19005E5BBE /* FormCf.Tests */,
+				B015D9F81928BD19005E5BBE /* Frameworks */,
+				B015D9F71928BD19005E5BBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B015D9F71928BD19005E5BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B015D9F61928BD19005E5BBE /* Form Cf..app */,
+				B015DA1A1928BD19005E5BBE /* Form Cf.Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B015D9F81928BD19005E5BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B015DA351928BE0A005E5BBE /* AssetsLibrary.framework */,
+				B015DA331928BDFD005E5BBE /* MediaPlayer.framework */,
+				B015DA311928BDD4005E5BBE /* AVFoundation.framework */,
+				B015D9F91928BD19005E5BBE /* Foundation.framework */,
+				B015D9FB1928BD19005E5BBE /* CoreGraphics.framework */,
+				B015D9FD1928BD19005E5BBE /* UIKit.framework */,
+				B015DA1B1928BD19005E5BBE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B015D9FF1928BD19005E5BBE /* Form Cf. */ = {
+			isa = PBXGroup;
+			children = (
+				B015DA081928BD19005E5BBE /* AppDelegate.h */,
+				B015DA091928BD19005E5BBE /* AppDelegate.m */,
+				B015DA371928BE95005E5BBE /* FlagClass.h */,
+				B015DA381928BE95005E5BBE /* FlagClass.m */,
+				B015DA3A1928BF1C005E5BBE /* MoviesTableViewController.h */,
+				B015DA3B1928BF1C005E5BBE /* MoviesTableViewController.m */,
+				B015DA3D1928BFED005E5BBE /* PlayerView.h */,
+				B015DA3E1928BFED005E5BBE /* PlayerView.m */,
+				B015DA401928C04F005E5BBE /* FlagPlayerViewController.h */,
+				B015DA411928C04F005E5BBE /* FlagPlayerViewController.m */,
+				B015DA461928C13F005E5BBE /* ComparePlayerViewController.h */,
+				B015DA471928C13F005E5BBE /* ComparePlayerViewController.m */,
+				B015DA491928C1B2005E5BBE /* SelectPlaySpeedViewController.h */,
+				B015DA4A1928C1B2005E5BBE /* SelectPlaySpeedViewController.m */,
+				B015DA141928BD19005E5BBE /* Images.xcassets */,
+				B015DA001928BD19005E5BBE /* Supporting Files */,
+			);
+			name = "Form Cf.";
+			path = FormComparator;
+			sourceTree = "<group>";
+		};
+		B015DA001928BD19005E5BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B015DA011928BD19005E5BBE /* Form Cf.-Info.plist */,
+				B015DA021928BD19005E5BBE /* InfoPlist.strings */,
+				B015DA051928BD19005E5BBE /* main.m */,
+				B015DA071928BD19005E5BBE /* Form Cf.-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B015DA211928BD19005E5BBE /* FormCf.Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B015DA271928BD19005E5BBE /* FormComparatorTests.m */,
+				B015DA221928BD19005E5BBE /* Supporting Files */,
+			);
+			name = FormCf.Tests;
+			path = FormComparatorTests;
+			sourceTree = "<group>";
+		};
+		B015DA221928BD19005E5BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B015DA231928BD19005E5BBE /* Form Cf.Tests-Info.plist */,
+				B015DA241928BD19005E5BBE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B015D9F51928BD19005E5BBE /* Form Cf. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B015DA2B1928BD19005E5BBE /* Build configuration list for PBXNativeTarget "Form Cf." */;
+			buildPhases = (
+				B015D9F21928BD19005E5BBE /* Sources */,
+				B015D9F31928BD19005E5BBE /* Frameworks */,
+				B015D9F41928BD19005E5BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Form Cf.";
+			productName = FormComparator;
+			productReference = B015D9F61928BD19005E5BBE /* Form Cf..app */;
+			productType = "com.apple.product-type.application";
+		};
+		B015DA191928BD19005E5BBE /* Form Cf.Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B015DA2E1928BD19005E5BBE /* Build configuration list for PBXNativeTarget "Form Cf.Tests" */;
+			buildPhases = (
+				B015DA161928BD19005E5BBE /* Sources */,
+				B015DA171928BD19005E5BBE /* Frameworks */,
+				B015DA181928BD19005E5BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B015DA201928BD19005E5BBE /* PBXTargetDependency */,
+			);
+			name = "Form Cf.Tests";
+			productName = FormComparatorTests;
+			productReference = B015DA1A1928BD19005E5BBE /* Form Cf.Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B015D9EE1928BD19005E5BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Takuya;
+				TargetAttributes = {
+					B015D9F51928BD19005E5BBE = {
+						DevelopmentTeam = HH22SEKG6H;
+					};
+					B015DA191928BD19005E5BBE = {
+						TestTargetID = B015D9F51928BD19005E5BBE;
+					};
+				};
+			};
+			buildConfigurationList = B015D9F11928BD19005E5BBE /* Build configuration list for PBXProject "Form Cf." */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B015D9ED1928BD19005E5BBE;
+			productRefGroup = B015D9F71928BD19005E5BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B015D9F51928BD19005E5BBE /* Form Cf. */,
+				B015DA191928BD19005E5BBE /* Form Cf.Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B015D9F41928BD19005E5BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015DA151928BD19005E5BBE /* Images.xcassets in Resources */,
+				B015DA041928BD19005E5BBE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B015DA181928BD19005E5BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015DA261928BD19005E5BBE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B015D9F21928BD19005E5BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015DA4B1928C1B2005E5BBE /* SelectPlaySpeedViewController.m in Sources */,
+				B015DA3C1928BF1C005E5BBE /* MoviesTableViewController.m in Sources */,
+				B015DA481928C13F005E5BBE /* ComparePlayerViewController.m in Sources */,
+				B015DA421928C04F005E5BBE /* FlagPlayerViewController.m in Sources */,
+				B015DA0A1928BD19005E5BBE /* AppDelegate.m in Sources */,
+				B015DA391928BE95005E5BBE /* FlagClass.m in Sources */,
+				B015DA061928BD19005E5BBE /* main.m in Sources */,
+				B015DA3F1928BFED005E5BBE /* PlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B015DA161928BD19005E5BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B015DA281928BD19005E5BBE /* FormComparatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B015DA201928BD19005E5BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B015D9F51928BD19005E5BBE /* Form Cf. */;
+			targetProxy = B015DA1F1928BD19005E5BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B015DA021928BD19005E5BBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B015DA031928BD19005E5BBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B015DA241928BD19005E5BBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B015DA251928BD19005E5BBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B015DA291928BD19005E5BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B015DA2A1928BD19005E5BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B015DA2C1928BD19005E5BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormComparator/Form Cf.-Prefix.pch";
+				INFOPLIST_FILE = "FormComparator/Form Cf.-Info.plist";
+				PRODUCT_NAME = "Form Cf.";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B015DA2D1928BD19005E5BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormComparator/Form Cf.-Prefix.pch";
+				INFOPLIST_FILE = "FormComparator/Form Cf.-Info.plist";
+				PRODUCT_NAME = "Form Cf.";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B015DA2F1928BD19005E5BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FormComparator.app/FormComparator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormComparator/FormComparator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FormComparatorTests/Form Cf.Tests-Info.plist";
+				PRODUCT_NAME = "Form Cf.Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B015DA301928BD19005E5BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FormComparator.app/FormComparator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormComparator/FormComparator-Prefix.pch";
+				INFOPLIST_FILE = "FormComparatorTests/Form Cf.Tests-Info.plist";
+				PRODUCT_NAME = "Form Cf.Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B015D9F11928BD19005E5BBE /* Build configuration list for PBXProject "Form Cf." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B015DA291928BD19005E5BBE /* Debug */,
+				B015DA2A1928BD19005E5BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B015DA2B1928BD19005E5BBE /* Build configuration list for PBXNativeTarget "Form Cf." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B015DA2C1928BD19005E5BBE /* Debug */,
+				B015DA2D1928BD19005E5BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B015DA2E1928BD19005E5BBE /* Build configuration list for PBXNativeTarget "Form Cf.Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B015DA2F1928BD19005E5BBE /* Debug */,
+				B015DA301928BD19005E5BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B015D9EE1928BD19005E5BBE /* Project object */;
+}
